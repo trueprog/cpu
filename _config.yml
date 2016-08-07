@@ -13,8 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   microcomputer simulation written in Java.
 baseurl: "/cpu" # the subpath of your site, e.g. /blog
 url: "https://trueprogandy.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  trueprogandy
 
 # Build settings
 markdown: kramdown
