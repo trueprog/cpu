@@ -11,7 +11,7 @@ email: trueprogandy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   An introduction to machine language and its execution, using a simple
   microcomputer simulation written in Java.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/cpu" # the subpath of your site, e.g. /blog
 url: "https://trueprogandy.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
