@@ -43,24 +43,19 @@ public class Cpu {
 
 We also need two more opcodes:
 
-* One for moving the first number into the accumulator: `MVI`
-* One for adding the second number `ADI`
-
-This is 
+* One for moving the first number into the accumulator: `MOV`
+* One for adding the second number `ADD`
 
 So the whole program in machine language (using mnemonics) would be:
 
 ```nasm
-MVI A, 3 ;load the number 3 into the accumulator
-ADI 4    ;add the number 4 to the contents of the accumulator
+MOV A, 3 ;load the number 3 into the accumulator
+ADD 4    ;add the number 4 to the contents of the accumulator
 HLT
 ```
 
-The opcodes for `MVI` and `ADI` are `0x3e` and `0xc6`, respectively. 
-
-Maybe you wonder why there is the letter "I" in the mnemonic. It stands for
-*immediate*, i.e. the actual data follows immediately after the opcode. There
-are other ways to provide data but for now that's all we need.
+The opcodes for `MOV` and `ADD` are `0x3e` and `0xc6`, respectively. The numbers
+you want to move or add must follow the opcode immediately. 
 
 So altogether our program looks like this: `0x3e, 0x03, 0xc6, 0x04, 0x76`.
 
@@ -87,4 +82,4 @@ public class Simulation {
 
 Try this now and see if it prints the correct result.
 
-[If it didn't, see the next article.](../mviadiinstr)
+[If it didn't, see the next article.](../movaddinstr)

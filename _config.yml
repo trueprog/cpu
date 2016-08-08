@@ -22,7 +22,16 @@ include: ['_pages']
 sass:
   style: :compressed
 
-# Plugins
-#gems: [jekyll-mermaid]
-#mermaid:
-#  src: '/cpu/js/mermaid.min.js'
+collections:
+- lessons
+
+collections:
+  lessons:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: lessons
+    values:
+      layout: page

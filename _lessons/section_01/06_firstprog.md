@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Your first program in machine language"
+title: "Your first program"
 permalink: /firstprog/
 ---
 
