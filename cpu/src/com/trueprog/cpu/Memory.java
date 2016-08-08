@@ -2,7 +2,7 @@ package com.trueprog.cpu;
 
 public class Memory {
 
-	private final int[] mem = new int[2^16];
+	private final int[] mem = new int[65536];
 	
 	public int read(int addr) {
 		return mem[addr];
