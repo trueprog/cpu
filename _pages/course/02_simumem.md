@@ -66,4 +66,6 @@ The technical term for this kind of bulk loading from a storage device is
 ***
 
 <a name="footnote1"><sup>*</sup></a> Actually that's only true if the cells are 1 byte in
-size. We're simulating an 8 bit microcomputer here, where this would be true.
+size. We're simulating an 8 bit microcomputer here, where this would be true. However,
+our simulation uses Java's built-in data type `int`, which is actually 4 bytes long.
+Let's just ignore this for now and pretend it's really just 1 byte.
