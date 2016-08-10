@@ -256,7 +256,23 @@
 .lessons-nav {
     float: right;
     margin: 0px 0px $spacing-unit $spacing-unit;
-    padding: 5px;
-    background: #eeeeee;
-    border: solid 1px #cccccc;
+    padding: 1em 1em 1.25em 1em;
+    background: $grey-color-light;
+}
+
+/**
+ * Footnotes
+ */
+.footnotes {
+    font-size: $small-font-size;
+    line-height: $small-line-height;
+}
+
+dt {
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+li.selected {
+    color: $grey-color;
 }

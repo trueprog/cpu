@@ -44,7 +44,7 @@ because no other op codes are known to our simulator yet.
 
 Your Java compiler will complain about the line containing `return true;` because
 this line can actually never be reached. Let's fix that quickly by adding one
-other op code. The instruction will be to do nothing at all. It's mnemonic is
+other opcode. The new instruction will be to do nothing at all. It's mnemonic is
 `NOP` literally for "no operation." It may seem funny, but all CPUs I am aware
 of have such a `NOP` instruction.
 

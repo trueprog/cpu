@@ -11,7 +11,7 @@ read the program and the data from the memory and write results to it.
 ```java
 public class Memory {
     
-    private int[] mem = new int[2^16];
+    private int[] mem = new int[65536];
     
     public int read(int address) {
         return mem[address];
@@ -30,8 +30,9 @@ because that is the only kind of thing it can work with. We will see how to
 encode text and more complex structures, but for now we will just work with
 numbers directly.
 
-In the example, the memory is initialized as an array with 2<sup>16</sup>&nbsp;=&nbsp;65536 cells.
-That is exactly 64&nbsp;kB<sup>[*](#footnote1)</sup>. Why this number? Traditionally, 8 bit microcomputers
+In the example, the memory is initialized as an array with
+2<sup>16</sup>&nbsp;=&nbsp;65536 cells.
+That is exactly 64&nbsp;kB.[^1] Why this number? Traditionally, 8 bit microcomputers
 actually had 16 bit of *address space*. Think of the memory as a long street
 with houses numbered from 0 to some upper limit. With 16 bit, you can have 2<sup>16</sup>
 houses.
@@ -65,7 +66,8 @@ The technical term for this kind of bulk loading from a storage device is
 
 ***
 
-<a name="footnote1"><sup>*</sup></a> Actually that's only true if the cells are 1 byte in
-size. We're simulating an 8 bit microcomputer here, where this would be true. However,
-our simulation uses Java's built-in data type `int`, which is actually 4 bytes long.
-Let's just ignore this for now and pretend it's really just 1 byte.
+[^1]: Actually that's only true if the cells are 1 byte in
+    size. We're simulating an 8 bit microcomputer here, where this would be 
+    correct. However, our simulation uses Java's built-in data type `int`, which
+    is really 4 bytes long. Let's just ignore this for now and pretend it's
+    1 byte.

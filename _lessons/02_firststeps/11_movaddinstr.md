@@ -42,3 +42,4 @@ So let's implement the two additional opcodes:
 Try it again and with a little prudence, your `Simulator` should print out the
 correct answer.
 
+[Here's a summary of what you learned in this section.](../summary)
