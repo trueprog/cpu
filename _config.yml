@@ -18,6 +18,7 @@ github_username: trueprog
 # Build settings
 markdown: kramdown
 include: ['_pages']
+exclude: ['node_modules']
 
 sass:
   style: :compressed
