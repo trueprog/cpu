@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Microcomputer Architecture
-permalink: /microarch/
+permalink: /lessons/microarch/
 ---
 
 To really understand computer programming, we will implement the simulation of

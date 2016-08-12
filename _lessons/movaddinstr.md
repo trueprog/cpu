@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Implementing MOV and ADD"
-permalink: /movaddinstr/
+permalink: /lessons/movaddinstr/
 ---
 Most likely, your Simulation threw a `RuntimeException` when you tried to run
 it. Maybe you already figured out why this happened. If not, try.

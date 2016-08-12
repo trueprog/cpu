@@ -1,6 +1,7 @@
 ---
 title: Foundations
 layout: page
+permalink: /lessons/foundation/
 ---
 TODO
 

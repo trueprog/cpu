@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Do nothing: The NOP instruction"
-permalink: /nopinstr/
+permalink: /lessons/nopinstr/
 ---
 
 This is the overview for the `NOP`instruction:

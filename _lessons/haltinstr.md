@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "The first instruction: HLT"
-permalink: /haltinstr/
+permalink: /lessons/haltinstr/
 ---
 
 Time to implement the first instruction. Remember that everything needs to be 

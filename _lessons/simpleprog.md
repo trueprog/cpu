@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Adding two numbers"
-permalink: /simpleprog/
+permalink: /lessons/simpleprog/
 ---
 Let's begin with an extremely simple program. It will do nothing but add two 
 numbers. In Java, it would look like this:

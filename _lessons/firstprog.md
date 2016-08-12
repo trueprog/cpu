@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Your first program"
-permalink: /firstprog/
+permalink: /lessons/firstprog/
 ---
 
 Given that the only two opcodes out simulator understand are "do nothing" and

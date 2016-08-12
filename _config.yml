@@ -11,9 +11,9 @@ email: trueprogandy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   An introduction to machine language and its execution, using a simple
   microcomputer simulation written in Java.
-baseurl: "/cpu" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://trueprog.github.io" # the base hostname & protocol for your site
-github_username:  trueprog
+github_username: trueprog
 
 # Build settings
 markdown: kramdown
@@ -23,7 +23,7 @@ sass:
   style: :compressed
 
 collections:
-- lessons
+  - lessons
 
 collections:
   lessons:
@@ -35,3 +35,4 @@ defaults:
       type: lessons
     values:
       layout: page
+

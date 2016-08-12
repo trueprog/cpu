@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Simulating memory
-permalink: /simumem/
+permalink: /lessons/simumem/
 ---
 
 The memory is the simplest.

@@ -1,0 +1,7 @@
+  <aside class="lessons-nav">
+    <h2>Lessons</h2>
+    {% for section in site.data.lessons %}
+    <h3>{{ section.title }}</h3>
+    {% include toc-ul.html items=section.docs %}
+    {% endfor %}
+  </aside>

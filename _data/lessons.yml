@@ -1,0 +1,14 @@
+- title: Foundations
+  docs:
+  - foundation
+
+- title: First steps
+  docs:
+  - microarch
+  - simumem
+  - simucpu
+  - haltinstr
+  - nopinstr
+  - firstprog
+  - simpleprog
+  - movaddinstr

@@ -9,27 +9,8 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
-  <aside class="lessons-nav">
-    <h2>Lessons</h2>
-    <ul class="lessons-list">
-      {% for post in site.lessons %}
-        {% if post == page %}
-        <li class="selected">
-        {% else %}
-        <li>
-        {% endif %}
-          {% unless post == page %}
-          <a class="lesson-link" href="{{ post.url | prepend: site.baseurl }}">
-          {% endunless %}
-            {{ post.title }}
-          {% unless post == page %}
-          </a>
-          {% endunless %}
-        </li>
-      {% endfor %}
-    </ul>
-  </aside>
-
+  {% include toc-content.html %}
+  
   <div class="post-content">
     {{ content }}
   </div>

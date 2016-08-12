@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Simulating the CPU
-permalink: /simucpu/
+permalink: /lessons/simucpu/
 ---
 
 The CPU is the part of a computer that does the main work. Essentially, it
