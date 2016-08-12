@@ -6,13 +6,18 @@ layout: default
 <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="page-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </div>
   </header>
 
-  {% include toc-content.html %}
   
-  <div class="post-content">
+  <div class="post-content col-md-8">
     {{ content }}
+  </div>
+
+  <div class="col-md-4">
+    {% include toc-content.html %}
   </div>
 
 </article>
