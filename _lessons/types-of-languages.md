@@ -1,7 +1,7 @@
 ---
-title: Foundations
+title: Programming languages
 layout: page
-permalink: /lessons/foundation/
+permalink: /lessons/types-of-languages/
 ---
 TODO
 

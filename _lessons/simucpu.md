@@ -10,7 +10,16 @@ it either is powered down or it hits a special stop instruction:
 
 1. Get next instruction from memory.
 2. Decode and execute that instruction.
-3. If it wasn't a special stop instruction, repeat.
+3. If it wasn't the special stop instruction, repeat.
+
+To understand how this happens, it is helpful to take a closer look at what
+happens inside the CPU. The picture below shows the main components.
+
+![CPU high level architecture](../cpu-arch-lv0.svg)
+
+
+
+## Simulating the CPU in Java
 
 What does that mean for our simulation? First, the CPU needs to be attached to
 its memory. Second, the CPU needs to remember where it has to read the next 
