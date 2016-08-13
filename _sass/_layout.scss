@@ -211,6 +211,12 @@
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+    
+    margin-top: 1em;
+    color: $color-complement-0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid $color-complement-0;
+
 }
 
 .post-content {
@@ -222,6 +228,10 @@
         @include media-query($on-laptop) {
             font-size: 28px;
         }
+        
+        margin-top: 1em;
+        color: $color-complement-0;
+        border-bottom: 1px solid $color-complement-0;
     }
 
     h3 {
