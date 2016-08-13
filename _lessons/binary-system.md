@@ -32,7 +32,7 @@ The table below shows you the numbers up to 16 in the binary system.
 | 6 | 110 | 14 | 1110 |
 | 7 | 111 | 15 | 1111 |
 
-# Exercises
+## Exercises
 
 1. Convert the following numbers into binary: 17, 31, 1024
 2. Convert the following numbers into the decimal system: 0b11011, 0b111110, 0b10000
